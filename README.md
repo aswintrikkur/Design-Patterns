@@ -44,6 +44,10 @@ Common examples: Observer, Strategy, Command, Iterator, Mediator, Memento, State
 - Use a pattern when a problem recurs and a proven structural approach can improve clarity and maintainability.
 - Prefer simple, idiomatic code first; apply patterns when they solve real design issues, not preemptively.
 
+
+ref: [Design Patterns](https://refactoring.guru/design-patterns)
+
+
 ---
 
 
