@@ -1,6 +1,7 @@
 //!================== with memento pattern and dependancy injection ==================//
 // ! ------------ made history reusability ------------
 // ! ------------ handling multiple states ------------
+//TODO : TASK INCOMPLETE
 
 export enum editorFields {
     content = "content",
