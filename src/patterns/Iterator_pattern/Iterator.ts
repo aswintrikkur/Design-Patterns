@@ -1,4 +1,4 @@
-//========= interface ============
+//? ========= interface ============
 interface Iterator {
     hasNext(): boolean;
     current(): string;
@@ -6,9 +6,9 @@ interface Iterator {
     getIndex(): number;
 }
 
-//================== concrete Iterator ===========
+//?========================= concrete Iterator ==================
 
-//================== ArrayIterator ==============
+//--------------------- ArrayIterator ---------------------
 export class ArrayIterator implements Iterator {
     private array: string[] = []; 
     private index: number = 0;
@@ -31,7 +31,7 @@ export class ArrayIterator implements Iterator {
     }
 }
 
-//============ linkedList Iterator ===============
+//---------------- linkedList Iterator --------------------
 export class LinkedListIterator implements Iterator {
     private currentNode: LinkedListNode | null;
     private index: number = 0;
@@ -65,4 +65,4 @@ export interface LinkedListNode {
     next: LinkedListNode | null;
 }
 
-//================== stack Iterator ==============
+// ----------------- stack Iterator -----------------

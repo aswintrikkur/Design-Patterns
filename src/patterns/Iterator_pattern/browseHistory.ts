@@ -17,6 +17,7 @@ export class BrowseHistory {
         return this.history;
     }
     createIterator() {
+        //change the Concrete Iterator when changing the dataType
         return new ArrayIterator(this.history);
     }
 }
